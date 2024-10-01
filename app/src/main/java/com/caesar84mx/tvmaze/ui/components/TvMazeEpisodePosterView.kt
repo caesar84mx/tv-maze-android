@@ -1,5 +1,6 @@
 package com.caesar84mx.tvmaze.ui.components
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -37,16 +38,26 @@ fun TvMazeEpisodePosterView(
         onClick = { onClicked(episode.id) }
     ) {
         Box {
-            GlideImage(
-                model = episode.image,
-                contentDescription = null,
-                contentScale = ContentScale.FillBounds,
-                loading = placeholder(painter = painterResource(R.drawable.ic_landscape)),
-                failure = placeholder(painter = painterResource(R.drawable.ic_landscape)),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .fillMaxHeight()
-            )
+            if (episode.image.isNotEmpty()) {
+                GlideImage(
+                    model = episode.image,
+                    contentDescription = null,
+                    contentScale = ContentScale.FillBounds,
+                    loading = placeholder(painter = painterResource(R.drawable.ic_landscape)),
+                    failure = placeholder(painter = painterResource(R.drawable.ic_landscape)),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .fillMaxHeight()
+                )
+            } else {
+                Image(
+                    painter = painterResource(id = R.drawable.ic_landscape),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .fillMaxHeight()
+                )
+            }
 
             Column {
                 Spacer(modifier = Modifier.weight(1f))
