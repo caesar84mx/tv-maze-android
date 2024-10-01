@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TvMaze</string>
+    <string name="see_details_button">See details</string>
+    <string name="search_field_hint">Search</string>
+    <string name="search_field_label">Search show by name</string>
+    <string name="on_air_label">On air:</string>
+    <string name="season_label">Season %d</string>
+    <string name="show_episodes_button">Show episodes</string>
+    <string name="enter_pin_code_title">Enter PIN</string>
+    <string name="set_new_pin_code_title">Set new PIN</string>
+    <string name="favorites_title">Favorites</string>
+    <string name="series_title">Series</string>
+</resources>
