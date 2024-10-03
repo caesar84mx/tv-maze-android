@@ -2,7 +2,6 @@ package com.caesar84mx.tvmaze.data.dao
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.caesar84mx.tvmaze.data.model.dao.EpisodeDao
 import com.caesar84mx.tvmaze.data.model.dao.EpisodeEntity
 import com.caesar84mx.tvmaze.data.model.dao.ShowEntity
 

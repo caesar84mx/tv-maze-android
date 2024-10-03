@@ -2,7 +2,7 @@ package com.caesar84mx.tvmaze.data.repository
 
 import android.content.SharedPreferences
 import com.caesar84mx.tvmaze.data.model.backbone.Episode
-import com.caesar84mx.tvmaze.data.model.dao.EpisodeDao
+import com.caesar84mx.tvmaze.data.dao.EpisodeDao
 import com.caesar84mx.tvmaze.data.model.dao.EpisodeEntity
 import com.caesar84mx.tvmaze.data.model.network.EpisodeResponse
 import com.caesar84mx.tvmaze.data.model.network.ImageData

@@ -32,7 +32,6 @@ room = "2.6.1"
 
 timber = "5.0.1"
 turbine = "1.0.0"
-junitVersion = "4.13.2"
 
 [libraries]
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
@@ -77,7 +76,6 @@ room-paging = { group = "androidx.room", name = "room-paging", version.ref = "ro
 
 timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
 turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
-junit-junit = { group = "junit", name = "junit", version.ref = "junitVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -1,9 +1,10 @@
-package com.caesar84mx.tvmaze.data.model.dao
+package com.caesar84mx.tvmaze.data.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import com.caesar84mx.tvmaze.data.model.dao.EpisodeEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

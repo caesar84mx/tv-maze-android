@@ -86,7 +86,6 @@ dependencies {
     implementation(libs.timber)
     implementation(libs.androidx.navigation.compose)
     testImplementation(libs.junit)
-    testImplementation(libs.junit.junit)
 
     annotationProcessor(libs.room.compiler)
     ksp(libs.room.compiler)

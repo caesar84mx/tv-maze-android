@@ -5,7 +5,7 @@ import androidx.room.Room
 import com.caesar84mx.tvmaze.BuildConfig
 import com.caesar84mx.tvmaze.data.dao.ShowDao
 import com.caesar84mx.tvmaze.data.dao.TvMazeDatabase
-import com.caesar84mx.tvmaze.data.model.dao.EpisodeDao
+import com.caesar84mx.tvmaze.data.dao.EpisodeDao
 import org.koin.dsl.module
 
 private fun provideDataBase(application: Application): TvMazeDatabase =
